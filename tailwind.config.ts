@@ -9,9 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          "radial-gradient(#C77FEA, transparent)",
+      },
+      colors: {
+        purple: {
+          light: "#C77FEA",
+          DEFAULT: "#662A83",
+          transparent: "#662A8366",
+        },
+        white: {
+          light: "#EEEEEE",
+          DEFAULT: "#FFF",
+        },
+        background: "#242327",
       },
     },
   },
