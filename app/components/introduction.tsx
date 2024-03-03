@@ -24,12 +24,14 @@ export const Introduction = ({ isActive }: IntroductionProps) => {
         { "pointer-events-none": !isActive }
       )}
     >
+      <p className="mb-3">Bonjour !</p>
       <p className="mb-3">
         <a
-          href="https://www.youtube.com/watch?v=vt2Sq0Tlc1c"
+          href="https://www.youtube.com/watch?v=YF9B8DP32bs"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-semibold hover:text-purple-light transition"
+          className="hover:text-purple-light transition"
+          title="?!"
         >
           Saxophoniste
         </a>{" "}
@@ -38,10 +40,9 @@ export const Introduction = ({ isActive }: IntroductionProps) => {
         que j'exprime ma créativité.
       </p>
       <p className="mb-3">
-        De React à WordPress, je recherche la même qualité dans mon code,pour
-        répondre aux besoins exprimés et pour un rendu précis et élégant.
+        De React à WordPress, je recherche la même qualité dans mon code, pour
+        répondre aux besoins exprimés avec un rendu précis et élégant.
       </p>
-      <p>Découvrez ici des projets pro ou perso que j'ai aimé réaliser.</p>
     </motion.div>
   );
 };

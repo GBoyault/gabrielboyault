@@ -7,7 +7,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Gabriel Boyault | Développeur front-end",
   description:
-    "Bienvenue sur le portfolio de Gabriel Boyault, développeur front-end react nantais",
+    "Bienvenue sur le portfolio de Gabriel Boyault, développeur front-end react & WordPress nantais",
 };
 
 export default function RootLayout({

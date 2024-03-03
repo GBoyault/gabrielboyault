@@ -1,5 +1,4 @@
 import { Project } from "@/app/definitions";
-import { url } from "inspector";
 
 export const projects: Project[] = [
   {
@@ -17,7 +16,28 @@ export const projects: Project[] = [
       { title: "Github", url: "https://github.com/" },
     ],
     technos: ["Next.js", "TypeScript", "Tailwind CSS", "PostGreSQL"],
-    images: ["/jelisdeslivres/main.png"],
+    images: [
+      {
+        src: "/jelisdeslivres/main.png",
+        alt: "Aperçu de l'application Je lis des livres",
+      },
+      {
+        src: "/jelisdeslivres/landing-page-desktop.webp",
+        alt: "Landing page (version bureau)",
+      },
+      {
+        src: "/jelisdeslivres/readings-section-desktop.webp",
+        alt: "Lectures enregistrées (version bureau)",
+      },
+      {
+        src: "/jelisdeslivres/update-reading-mobile.webp",
+        alt: "Éditer une lecture (version mobile)",
+      },
+      {
+        src: "/jelisdeslivres/friends-search-desktop.webp",
+        alt: "Rechercher des amis",
+      },
+    ],
   },
   {
     name: "Cottage Parks",

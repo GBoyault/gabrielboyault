@@ -27,9 +27,9 @@ export const Project = ({ project, isActive }: ProjectProps) => {
       animate={animate}
       style={{ originX: 1 }}
       transition={{ type: "spring", bounce: 0, duration: 0.25 }}
-      className="mb-8"
+      className="mb-8 md:mb-0"
     >
-      <div className="flex justify-between items-center mb-4 md:mb-8">
+      <div className="flex justify-between items-center mb-4 md:mb-6">
         <h2
           data-testid="project-heading"
           className="text-2xl md:text-[32px] font-light"
@@ -43,7 +43,7 @@ export const Project = ({ project, isActive }: ProjectProps) => {
           <ProjectLinks links={links} />
         </div>
       </div>
-      <div className="border-l-2 border-purple pl-4 mb-6 md:border-l-4 md:pl-6">
+      <div className="border-l-2 border-purple pl-4 mb-6 md:mb-8 md:border-l-4 md:pl-6">
         <div className="mb-4 md:mb-6 md:leading-7">{description}</div>
         <div className="flex mb-4 gap-6">
           <div className="hidden md:block mb-4">

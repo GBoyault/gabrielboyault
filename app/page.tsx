@@ -10,7 +10,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row justify-center items-center pt-8 pb-4 px-3 md:px-6">
+    <div className="min-h-screen flex flex-col md:flex-row justify-center items-center pt-6 pb-4 px-3 md:p-6">
       <CursorGradient />
       <ProjectsContextProvider>
         <div className="relative flex-grow flex flex-col max-w-xl md:max-w-6xl md:flex-row md:justify-between md:gap-4 md:min-h-[540px]">
