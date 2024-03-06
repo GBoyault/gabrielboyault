@@ -1,4 +1,4 @@
-import { socials } from "@/app/data/socials";
+import { socials } from "@/app/data";
 import { IconLink } from "@/app/definitions";
 
 export const Socials = () => {

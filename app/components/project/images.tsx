@@ -32,7 +32,7 @@ export const ProjectImages = ({ images }: ProjectImagesProps) => {
           alt={images[0].alt}
           width="120"
           height="75"
-          className="transition group-hover:brightness-75"
+          className="transition group-hover:brightness-75 rounded-md"
         />
       </a>
       {images.slice(2).map((image) => (

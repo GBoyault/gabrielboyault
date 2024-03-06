@@ -1,14 +1,9 @@
 "use client";
 
-import {
-  createContext,
-  useState,
-  useContext,
-  type PropsWithChildren,
-} from "react";
+import { createContext, useState, type PropsWithChildren } from "react";
 
 import { Project } from "@/app/definitions";
-import { projects } from "@/app/data/projects";
+import { projects } from "@/app/data";
 
 type ProjectsContextType = {
   projects: Project[];
@@ -32,8 +27,4 @@ export const ProjectsContextProvider = ({ children }: PropsWithChildren) => {
       {children}
     </ProjectsContext.Provider>
   );
-};
-
-export const useProjects = () => {
-  return useContext(ProjectsContext);
 };

@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 
-import { useProjects } from "@/app/contexts/projects-context";
+import { useProjects } from "@/app/hooks";
 import { Introduction, Project } from "@/app/components";
 
 export const Main = () => {

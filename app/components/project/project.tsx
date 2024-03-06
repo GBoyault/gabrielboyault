@@ -46,7 +46,7 @@ export const Project = ({ project, isActive }: ProjectProps) => {
       <div className="border-l-2 border-purple pl-4 mb-6 md:mb-8 md:border-l-4 md:pl-6">
         <div className="mb-4 md:mb-6 md:leading-7">{description}</div>
         <div className="flex mb-4 gap-6">
-          <div className="hidden md:block mb-4">
+          <div className="hidden md:block mb-4 flex-shrink-0">
             <ProjectImages images={images} />
           </div>
           <Technos technos={technos} />

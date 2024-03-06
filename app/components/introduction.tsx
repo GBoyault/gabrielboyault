@@ -14,7 +14,6 @@ export const Introduction = ({ isActive }: IntroductionProps) => {
 
   return (
     <motion.div
-      // initial={hidden}
       animate={animate}
       style={{ originX: 0 }}
       transition={{ type: "spring", bounce: 0, duration: 0.25 }}
@@ -24,8 +23,8 @@ export const Introduction = ({ isActive }: IntroductionProps) => {
         { "pointer-events-none": !isActive }
       )}
     >
-      <p className="mb-3">Bonjour !</p>
       <p className="mb-3">
+        Ancien{" "}
         <a
           href="https://www.youtube.com/watch?v=YF9B8DP32bs"
           target="_blank"
@@ -33,11 +32,10 @@ export const Introduction = ({ isActive }: IntroductionProps) => {
           className="hover:text-purple-light transition"
           title="?!"
         >
-          Saxophoniste
+          saxophoniste
         </a>{" "}
-        de formation, je m'initie au web en 2016 pour créer le site internet
-        d'un de mes groupes. Aujourd'hui c'est comme développeur à temps plein
-        que j'exprime ma créativité.
+        de jazz, c'est comme développeur à temps plein depuis 2019 que j'exprime
+        ma créativité.
       </p>
       <p className="mb-3">
         De React à WordPress, je recherche la même qualité dans mon code, pour

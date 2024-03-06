@@ -1,7 +1,7 @@
 "use client";
 
 import clsx from "clsx";
-import { useProjects } from "@/app/contexts/projects-context";
+import { useProjects } from "@/app/hooks";
 import { Project } from "@/app/definitions";
 
 export const ProjectNav = () => {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useProjects } from "@/app/contexts/projects-context";
+import { useProjects } from "@/app/hooks";
 import { ArrowLeft, ArrowLeftLarge } from "@/app/components/icons";
 
 export const BackButton = () => {

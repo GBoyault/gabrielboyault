@@ -4,7 +4,7 @@ type TechnosProps = {
 
 export const Technos = ({ technos }: TechnosProps) => {
   return (
-    <div className="flex gap-2 md:gap-3 flex-wrap">
+    <div className="flex gap-2 md:gap-3 flex-wrap content-start">
       {technos.map((techno) => (
         <Techno key={techno} techno={techno} />
       ))}
