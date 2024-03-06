@@ -13,7 +13,7 @@ const deepworktracker: Project = {
   links: [
     {
       title: "Voir le site",
-      url: "https://deepworktracker.vercel.app/",
+      url: "https://deepworktracker.gabrielboyault.com/",
     },
     {
       title: "Github",

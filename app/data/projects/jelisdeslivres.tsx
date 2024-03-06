@@ -12,7 +12,6 @@ const jelisdeslivres: Project = {
   ),
   links: [
     { title: "Voir le site", url: "https://jelisdeslivres.vercel.app/" },
-    { title: "Github", url: "https://github.com/" },
   ],
   technos: [
     "Next.js",

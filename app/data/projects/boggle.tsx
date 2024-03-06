@@ -12,7 +12,7 @@ const boggle: Project = {
   links: [
     {
       title: "Voir le site",
-      url: "https://boggle-two.vercel.app/",
+      url: "https://boggle.gabrielboyault.com/",
     },
   ],
   technos: ["React", "JavaScript"],
