@@ -4,8 +4,16 @@ const deepworktracker: Project = {
   name: "Deep Work Tracker",
   description: (
     <p>
-      Un time tracker orienté autour du concept de deep work de Cal Newport,
-      pour noter votre temps de concentration profonde sur une journée de
+      Un time tracker orienté autour du concept de deep work de{" "}
+      <a
+        href="https://calnewport.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline decoration-purple hover:decoration-purple-light underline-offset-8 hover:text-purple-light transition"
+      >
+        Cal Newport
+      </a>
+      , pour noter votre temps de concentration profonde sur une journée de
       travail et idéalement l'améliorer. L'écart entre ce qu'on pense faire en
       une journée et la réalité peut être surprenant !
     </p>

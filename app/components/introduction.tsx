@@ -24,7 +24,7 @@ export const Introduction = ({ isActive }: IntroductionProps) => {
       )}
     >
       <p className="mb-3">
-        Ancien{" "}
+        D'abord{" "}
         <a
           href="https://www.youtube.com/watch?v=YF9B8DP32bs"
           target="_blank"

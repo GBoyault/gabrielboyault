@@ -9,7 +9,7 @@ export const Main = () => {
   const { projects, activeProject } = useProjects();
 
   return (
-    <main className="relative min-h-[380px] md:min-h-0">
+    <main className="relative min-h-[320px] md:min-h-0">
       <Introduction isActive={!activeProject} />
       {projects.map((project) => (
         <div

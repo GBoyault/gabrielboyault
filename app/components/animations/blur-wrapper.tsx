@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 
-type FancyBoxProps = {
+type BlurWrapperProps = {
   children: React.ReactNode;
   className: string;
 };
 
-export const BlurWrapper = ({ children, className }: FancyBoxProps) => {
+export const BlurWrapper = ({ children, className }: BlurWrapperProps) => {
   return (
     <motion.div
       initial={{ filter: "blur(100px)", opacity: 0 }}

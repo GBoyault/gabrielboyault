@@ -7,8 +7,7 @@ const jbfoundry: Project = {
       <p className="mb-3">
         Jean Boyault est typographe, j'avais réalisé son site en 2018 pour
         présenter ses fonts.
-      </p>
-      <p>
+        <br />
         Cette refonte vise à explorer les possibilités de WordPress utilisé
         comme CMS headless avec React en front, pour proposer une meilleure
         expérience utilisateur à partir des même données.
