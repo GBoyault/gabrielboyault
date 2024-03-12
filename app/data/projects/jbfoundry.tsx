@@ -10,7 +10,7 @@ const jbfoundry: Project = {
         <br />
         Cette refonte vise à explorer les possibilités de WordPress utilisé
         comme CMS headless avec React en front, pour proposer une meilleure
-        expérience utilisateur à partir des même données.
+        expérience utilisateur à partir des mêmes données.
       </p>
     </>
   ),
