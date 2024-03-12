@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { useProjects, useScreen } from "@/app/hooks";
-import clsx from "clsx";
 
 export const Header = () => {
   const { activeProject, setActiveProject } = useProjects();
@@ -10,11 +9,14 @@ export const Header = () => {
 
   if (!isMobile) {
     return (
-      <h1 className="text-4xl md:text-6xl font-extralight mb-1 md:mb-4">
-        <button className="text-left" onClick={() => setActiveProject(null)}>
-          Gabriel Boyault
-        </button>
-      </h1>
+      <header className="mb-12">
+        <h1 className="text-6xl font-extralight mb-4">
+          <button className="text-left" onClick={() => setActiveProject(null)}>
+            Gabriel Boyault
+          </button>
+        </h1>
+        <h2 className="text-xl">Développeur front-end / WordPress nantais</h2>
+      </header>
     );
   }
 
@@ -28,18 +30,10 @@ export const Header = () => {
       animate={animate}
       style={{ originY: 0 }}
       transition={{ type: "spring", bounce: 0, duration: 0.25 }}
-      className={clsx("md:mb-12", { "mb-8": isVisible })}
+      className="mb-8"
     >
-      <h1
-        className={clsx("text-4xl md:text-6xl font-extralight mb-1 md:mb-4", {
-          "": isVisible,
-        })}
-      >
-        Gabriel Boyault
-      </h1>
-      <h2 className={clsx("md:text-xl", { "": isVisible })}>
-        Développeur front-end / WordPress nantais
-      </h2>
+      <h1 className="text-4xl font-extralight mb-1">Gabriel Boyault</h1>
+      <h2>Développeur front-end / WordPress nantais</h2>
     </motion.header>
   );
 };
