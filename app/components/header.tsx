@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useProjects, useScreen } from "@/app/hooks";
+import clsx from "clsx";
 
 export const Header = () => {
   const { activeProject, setActiveProject } = useProjects();
@@ -30,7 +31,7 @@ export const Header = () => {
       animate={animate}
       style={{ originY: 0 }}
       transition={{ type: "spring", bounce: 0, duration: 0.25 }}
-      className="mb-8"
+      className={clsx({ isVisible: "mb-8" })}
     >
       <h1 className="text-4xl font-extralight mb-1">Gabriel Boyault</h1>
       <h2>Développeur front-end / WordPress nantais</h2>
