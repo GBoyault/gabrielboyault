@@ -17,7 +17,8 @@ export const Main = () => {
         <div
           key={project.name}
           className={clsx("md:absolute md:top-0 md:left-0", {
-            "pointer-events-none": project.name !== activeProject?.name,
+            "pointer-events-none":
+              project.name !== activeProject?.name && !isMobile,
           })}
         >
           <Project
