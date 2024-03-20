@@ -19,7 +19,7 @@ export const Introduction = ({ isActive }: IntroductionProps) => {
       transition={{ type: "spring", bounce: 0, duration: 0.25 }}
       data-testid="introduction"
       className={clsx(
-        "border-l-2 border-purple pl-4 mb-8 md:border-l-4 md:pl-6 md:leading-7",
+        "border-l-2 border-purple pl-4 mb-14 md:mb-8 md:border-l-4 md:pl-6 md:leading-7",
         { "pointer-events-none": !isActive }
       )}
     >
