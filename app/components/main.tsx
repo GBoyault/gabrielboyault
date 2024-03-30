@@ -9,11 +9,15 @@ export const Main = () => {
   const { projects, activeProject } = useProjects();
   const { isMobile } = useScreen();
 
+  const projectsAdaptedToScreen = isMobile
+    ? projects.filter((project) => !project.desktopOnly)
+    : projects;
+
   return (
     <main className="relative min-h-[320px] md:min-h-0">
       <Introduction isActive={isMobile || !activeProject} />
       <div className="text-3xl font-light md:hidden mb-6">Projets</div>
-      {projects.map((project) => (
+      {projectsAdaptedToScreen.map((project) => (
         <div
           key={project.name}
           className={clsx("md:absolute md:top-0 md:left-0", {

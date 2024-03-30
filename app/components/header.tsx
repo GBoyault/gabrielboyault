@@ -12,7 +12,7 @@ export const Header = () => {
           Gabriel Boyault
         </button>
       </h1>
-      <h2 className="text-lg md:text-xl">Développeur front-end / WordPress nantais</h2>
+      <h2 className="text-lg md:text-xl">Développeur front-end / React nantais</h2>
     </header>
   );
 };

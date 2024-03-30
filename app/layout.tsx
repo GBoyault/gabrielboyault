@@ -6,15 +6,15 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gabriel Boyault | Développeur react / WordPress",
+  title: "Gabriel Boyault | Développeur front-end / React",
   description:
-    "Bienvenue sur le portfolio de Gabriel Boyault, développeur front-end react & WordPress nantais",
+    "Bienvenue sur le portfolio de Gabriel Boyault, développeur front-end react nantais",
   openGraph: {
-    title: "Gabriel Boyault | Développeur react / WordPress",
+    title: "Gabriel Boyault | Développeur front-end / React",
     description:
-      "Bienvenue sur le portfolio de Gabriel Boyault, développeur front-end react & WordPress nantais",
+      "Bienvenue sur le portfolio de Gabriel Boyault, développeur front-end react nantais",
     url: "https://www.gabrielboyault.com/",
-    siteName: "Gabriel Boyault | Développeur react / WordPress",
+    siteName: "Gabriel Boyault | Développeur front-end / React",
     images: [
       {
         url: "/opengraph-image.jpg",
