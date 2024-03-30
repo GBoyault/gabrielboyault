@@ -20,4 +20,5 @@ export interface Project {
   links: Link[];
   technos: string[];
   images: ProjectImage[];
+  desktopOnly?: boolean
 }

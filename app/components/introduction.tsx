@@ -38,7 +38,7 @@ export const Introduction = ({ isActive }: IntroductionProps) => {
         ma créativité.
       </p>
       <p className="mb-3">
-        De React à WordPress, je recherche la même qualité dans mon code, pour
+        En React ou vanilla JavaScript, je recherche la même qualité dans mon code, pour
         répondre aux besoins exprimés avec un rendu précis et élégant.
       </p>
     </motion.div>
