@@ -17,7 +17,7 @@ const jbfoundry: Project = {
   links: [
     {
       title: "Voir le site",
-      url: "https://jbfoundry-react.web.app/",
+      url: "https://jbfoundry.vercel.app/",
     },
     {
       title: "Github",
