@@ -6,7 +6,7 @@ export interface Link {
 }
 
 export interface IconLink extends Link {
-  icon: ReactElement;
+  icon: ReactElement<any>;
 }
 
 export interface ProjectImage {
@@ -16,7 +16,7 @@ export interface ProjectImage {
 
 export interface Project {
   name: string;
-  description: ReactElement;
+  description: ReactElement<any>;
   links: Link[];
   technos: string[];
   images: ProjectImage[];
